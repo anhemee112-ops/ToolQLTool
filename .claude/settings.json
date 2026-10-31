@@ -1,0 +1,39 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git status:*)",
+      "Bash(git diff:*)",
+      "Bash(git log:*)",
+      "Bash(git branch:*)",
+      "Bash(git add:*)",
+      "Bash(git commit:*)",
+      "Bash(dotnet --list-sdks)",
+      "Bash(dotnet --info)",
+      "Bash(dotnet build:*)",
+      "Bash(dotnet test:*)",
+      "Bash(dotnet format:*)",
+      "Bash(java -version)",
+      "Bash(git --version)",
+      "Bash(claude --version)",
+      "PowerShell(Get-ChildItem:*)",
+      "PowerShell(Get-Content:*)",
+      "PowerShell(Test-Path:*)",
+      "PowerShell(Get-Command:*)",
+      "PowerShell(Get-FileHash:*)",
+      "PowerShell(powershell -ExecutionPolicy Bypass -File scripts\\setup-dev.ps1 -CheckOnly)"
+    ],
+    "deny": [
+      "Read(**/test-account.env)",
+      "Read(**/.config/toolql/**)",
+      "Read(**/Mod DP/Data/**)",
+      "Read(**/Mod DP/Data)",
+      "Read(**/system/accounts.json)",
+      "Read(**/vjacc.rs)",
+      "Read(**/vjpass.rs)",
+      "Read(**/appdata*/accounts.json)",
+      "Bash(git push:*)",
+      "Bash(git reset --hard:*)",
+      "Bash(git clean:*)"
+    ]
+  }
+}

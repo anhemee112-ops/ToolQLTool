@@ -1,0 +1,94 @@
+<Window x:Class="ToolQL.App.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="ToolQL" Width="1200" Height="700" MinWidth="860" MinHeight="480"
+        Background="{StaticResource BgBrush}" Foreground="{StaticResource TextBrush}"
+        FontFamily="Segoe UI" FontSize="13" UseLayoutRounding="True">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+
+        <!-- Thanh công cụ -->
+        <Border Grid.Row="0" Background="{StaticResource PanelBrush}" BorderBrush="{StaticResource LineBrush}" BorderThickness="0,0,0,1" Padding="14,10">
+            <DockPanel>
+                <Button x:Name="SettingsButton" DockPanel.Dock="Right" Content="Cài đặt" Margin="0" Click="OnSettings"/>
+                <StackPanel Orientation="Horizontal">
+                    <Button x:Name="AddButton" Content="Thêm acc" Click="OnAdd"/>
+                    <Button x:Name="EditButton" Content="Sửa" Click="OnEdit"/>
+                    <Button x:Name="RemoveButton" Content="Xóa" Click="OnRemove" Margin="0,0,24,0"/>
+                    <Button x:Name="StartButton" Content="Bắt đầu" Style="{StaticResource PrimaryButton}" Click="OnStart"/>
+                    <Button x:Name="StopButton" Content="Dừng" Click="OnStop" Margin="0,0,24,0"/>
+                    <Button x:Name="ViewButton" Content="Xem" Click="OnToggleView"/>
+                    <Button x:Name="GridButton" Content="Lưới" Click="OnToggleGrid"/>
+                </StackPanel>
+            </DockPanel>
+        </Border>
+
+        <!-- Nội dung: danh sách acc | khung xem -->
+        <Grid Grid.Row="1" Margin="14">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="460"/>
+                <ColumnDefinition Width="14"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+
+            <Border Grid.Column="0" Background="{StaticResource PanelBrush}" BorderBrush="{StaticResource LineBrush}" BorderThickness="1" CornerRadius="8">
+                <Grid>
+                    <ListView x:Name="AccountList" BorderThickness="0" Background="Transparent" SelectionMode="Single"
+                              SelectionChanged="OnSelectionChanged" MouseDoubleClick="OnListDoubleClick">
+                        <ListView.ItemContainerStyle>
+                            <Style TargetType="ListViewItem">
+                                <Setter Property="Padding" Value="4,6"/>
+                                <Setter Property="ToolTip" Value="{Binding Message}"/>
+                            </Style>
+                        </ListView.ItemContainerStyle>
+                        <ListView.View>
+                            <GridView>
+                                <GridViewColumn Header="Tài khoản" Width="130" DisplayMemberBinding="{Binding User}"/>
+                                <GridViewColumn Header="Server" Width="90" DisplayMemberBinding="{Binding Server}"/>
+                                <GridViewColumn Header="Trạng thái" Width="120">
+                                    <GridViewColumn.CellTemplate>
+                                        <DataTemplate>
+                                            <TextBlock Text="{Binding StateText}" Foreground="{Binding StateBrush}" FontWeight="SemiBold"/>
+                                        </DataTemplate>
+                                    </GridViewColumn.CellTemplate>
+                                </GridViewColumn>
+                                <GridViewColumn Header="Ghi chú" Width="100" DisplayMemberBinding="{Binding Note}"/>
+                            </GridView>
+                        </ListView.View>
+                    </ListView>
+                    <TextBlock x:Name="EmptyHint" Text="Chưa có acc nào.&#x0A;Bấm &quot;Thêm acc&quot; để bắt đầu."
+                               HorizontalAlignment="Center" VerticalAlignment="Center" TextAlignment="Center"
+                               Foreground="{StaticResource MutedBrush}" IsHitTestVisible="False"/>
+                </Grid>
+            </Border>
+
+            <Border Grid.Column="2" Background="{StaticResource ViewBgBrush}" CornerRadius="8" ClipToBounds="True">
+                <Grid>
+                    <Grid x:Name="SingleLayer">
+                        <Viewbox Stretch="Uniform">
+                            <Image x:Name="ViewImage" RenderOptions.BitmapScalingMode="NearestNeighbor" Stretch="None"/>
+                        </Viewbox>
+                        <TextBlock x:Name="ViewHint" Text="Chọn một acc đang &quot;Trong game&quot; rồi bấm &quot;Xem&quot;.&#x0A;Không xem thì không vẽ gì cả."
+                               HorizontalAlignment="Center" VerticalAlignment="Center" TextAlignment="Center"
+                               Foreground="#8FA3B8" IsHitTestVisible="False"/>
+                    </Grid>
+                    <Grid x:Name="GridLayer" Visibility="Collapsed">
+                        <UniformGrid x:Name="GridCells" Margin="6"/>
+                        <TextBlock x:Name="GridHint" Text="Chưa có acc nào đang &quot;Trong game&quot;.&#x0A;Lưới hiện tối đa 4 acc đầu danh sách đang trong game."
+                                   HorizontalAlignment="Center" VerticalAlignment="Center" TextAlignment="Center"
+                                   Foreground="#8FA3B8" IsHitTestVisible="False"/>
+                    </Grid>
+                </Grid>
+            </Border>
+        </Grid>
+
+        <!-- Thanh trạng thái -->
+        <Border Grid.Row="2" Background="{StaticResource PanelBrush}" BorderBrush="{StaticResource LineBrush}" BorderThickness="0,1,0,0" Padding="14,6">
+            <TextBlock x:Name="StatusText" Foreground="{StaticResource MutedBrush}" TextTrimming="CharacterEllipsis"/>
+        </Border>
+    </Grid>
+</Window>

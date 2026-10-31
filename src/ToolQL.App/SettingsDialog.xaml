@@ -1,0 +1,76 @@
+<Window x:Class="ToolQL.App.SettingsDialog"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Cài đặt chung" Width="620" SizeToContent="Height" ResizeMode="NoResize" WindowStartupLocation="CenterOwner"
+        ShowInTaskbar="False" Background="{StaticResource BgBrush}" FontFamily="Segoe UI" FontSize="13">
+    <StackPanel Margin="20">
+        <TextBlock Text="Java (javaw.exe)" Foreground="{StaticResource MutedBrush}"/>
+        <DockPanel Margin="0,4,0,12">
+            <Button DockPanel.Dock="Right" Content="Chọn..." Margin="8,0,0,0" Click="OnBrowseJava"/>
+            <Button DockPanel.Dock="Right" Content="Tự tìm" Margin="8,0,0,0" Click="OnFindJava"/>
+            <TextBox x:Name="JavaBox"/>
+        </DockPanel>
+
+        <TextBlock Text="Trình chạy J2ME (AngelAChip.jar)" Foreground="{StaticResource MutedBrush}"/>
+        <DockPanel Margin="0,4,0,12">
+            <Button DockPanel.Dock="Right" Content="Chọn..." Margin="8,0,0,0" Click="OnBrowseEmulator"/>
+            <TextBox x:Name="EmulatorBox"/>
+        </DockPanel>
+
+        <TextBlock Text="Jar game (Dragonboy250 v3.5.jar)" Foreground="{StaticResource MutedBrush}"/>
+        <DockPanel Margin="0,4,0,12">
+            <Button DockPanel.Dock="Right" Content="Chọn..." Margin="8,0,0,0" Click="OnBrowseGame"/>
+            <TextBox x:Name="GameBox"/>
+        </DockPanel>
+
+        <TextBlock Text="Thư mục dữ liệu mẫu của client (để trống = mặc định)" Foreground="{StaticResource MutedBrush}"/>
+        <DockPanel Margin="0,4,0,12">
+            <Button DockPanel.Dock="Right" Content="Chọn..." Margin="8,0,0,0" Click="OnBrowseTemplate"/>
+            <TextBox x:Name="TemplateBox"/>
+        </DockPanel>
+
+        <StackPanel Orientation="Horizontal" Margin="0,0,0,4">
+            <StackPanel Margin="0,0,24,0">
+                <TextBlock Text="Kích thước màn hình game" Foreground="{StaticResource MutedBrush}"/>
+                <StackPanel Orientation="Horizontal" Margin="0,4,0,0">
+                    <TextBox x:Name="WidthBox" Width="60"/>
+                    <TextBlock Text=" × " VerticalAlignment="Center"/>
+                    <TextBox x:Name="HeightBox" Width="60"/>
+                </StackPanel>
+            </StackPanel>
+            <StackPanel>
+                <TextBlock Text="Delay mở acc (ms)" Foreground="{StaticResource MutedBrush}"/>
+                <TextBox x:Name="DelayBox" Width="80" Margin="0,4,0,0" HorizontalAlignment="Left"/>
+            </StackPanel>
+        </StackPanel>
+        <CheckBox x:Name="AutoPlayBox" Margin="0,4,0,4"
+                  Content="Tự bấm nút &quot;Chơi TK&quot; sau khi mở acc (client chỉ hiện nút, không tự đăng nhập)"/>
+        <StackPanel Orientation="Horizontal" Margin="0,0,0,4">
+            <TextBlock Text="Chờ trước khi bấm (ms): " VerticalAlignment="Center" Foreground="{StaticResource MutedBrush}"/>
+            <TextBox x:Name="ClickDelayBox" Width="80"/>
+        </StackPanel>
+        <TextBlock Text="Bấm bằng chuột thật: ToolQL đưa cửa sổ client lên trên cùng trong tích tắc rồi trả chuột về chỗ cũ."
+                   Foreground="{StaticResource MutedBrush}" FontSize="11" Margin="0,0,0,10"/>
+        <CheckBox x:Name="LowGraphicsBox" Margin="0,2,0,10"
+                  Content="Luôn mở client ở đồ họa thấp nhất (ghi sẵn vào cấu hình của client mỗi lần mở)"/>
+        <CheckBox x:Name="MaintenanceBox" Margin="0,2,0,4"
+                  Content="Bảo trì hằng ngày: tới giờ thì đóng mọi client, hết khung giờ thì mở lại"/>
+        <StackPanel Orientation="Horizontal" Margin="0,0,0,4">
+            <TextBlock Text="Từ " VerticalAlignment="Center" Foreground="{StaticResource MutedBrush}"/>
+            <TextBox x:Name="MaintStartBox" Width="60"/>
+            <TextBlock Text=" đến " VerticalAlignment="Center" Foreground="{StaticResource MutedBrush}"/>
+            <TextBox x:Name="MaintEndBox" Width="60"/>
+            <TextBlock Text="  (HH:mm, giờ Việt Nam)" VerticalAlignment="Center" Foreground="{StaticResource MutedBrush}"/>
+        </StackPanel>
+        <TextBlock Text="ToolQL không đọc được thông báo bảo trì trong game, chỉ theo giờ này: đặt cho khớp giờ bảo trì thật. Mất kết nối ngoài khung này thì tự đăng nhập lại sau ít nhất 40 giây."
+                   Foreground="{StaticResource MutedBrush}" FontSize="11" TextWrapping="Wrap" Margin="0,0,0,10"/>
+        <TextBlock Text="Kích thước áp dụng cho lần mở acc sau. Máy yếu thì để delay lớn hơn (ví dụ 3000)."
+                   Foreground="{StaticResource MutedBrush}" FontSize="11" Margin="0,0,0,12"/>
+
+        <TextBlock x:Name="ErrorText" Foreground="#D33B3B" TextWrapping="Wrap" Margin="0,0,0,8" Visibility="Collapsed"/>
+        <StackPanel Orientation="Horizontal" HorizontalAlignment="Right">
+            <Button Content="Hủy" IsCancel="True" MinWidth="80"/>
+            <Button Content="Lưu" IsDefault="True" Style="{StaticResource PrimaryButton}" MinWidth="80" Margin="0" Click="OnOk"/>
+        </StackPanel>
+    </StackPanel>
+</Window>

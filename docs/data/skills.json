@@ -1,0 +1,164 @@
+[
+ {
+  "id": 0,
+  "name": "Chiêu đấm Dragon",
+  "description": "[Trái Đất] Tấn công cận chiến Tăng sức đánh: #%",
+  "iconId": 539
+ },
+ {
+  "id": 1,
+  "name": "Chiêu Kamejoko",
+  "description": "[Trái Đất] Đánh xa nhờ năng lượng Tăng sức đánh: #%",
+  "iconId": 540
+ },
+ {
+  "id": 2,
+  "name": "Chiêu đấm Demon",
+  "description": "[Namếc] Tấn công cận chiến Tăng sức đánh: #%",
+  "iconId": 539
+ },
+ {
+  "id": 3,
+  "name": "Chiêu Masenko",
+  "description": "[Namếc] Đánh xa nhờ năng lượng Tăng sức đánh: #%",
+  "iconId": 540
+ },
+ {
+  "id": 4,
+  "name": "Chiêu đấm Galick",
+  "description": "[Xayda] Tấn công cận chiến Tăng sức đánh: #%",
+  "iconId": 539
+ },
+ {
+  "id": 5,
+  "name": "Chiêu Antomic",
+  "description": "[Xayda] Đánh xa nhờ năng lượng Tăng sức đánh: #%",
+  "iconId": 540
+ },
+ {
+  "id": 6,
+  "name": "Thái Dương Hạ San",
+  "description": "[Trái Đất] Làm chói mắt đối phương Thời gian tác dụng: # mili giây",
+  "iconId": 717
+ },
+ {
+  "id": 7,
+  "name": "Trị thương",
+  "description": "[Namếc] Phục hồi HP KI cho đồng đội Phục hồi #% HP và KI cho đồng đội",
+  "iconId": 724
+ },
+ {
+  "id": 8,
+  "name": "Tái tạo năng lượng",
+  "description": "[Xayda] Tái tạo lại HP và MP đang có Tự tái tạo HP MP #%/s",
+  "iconId": 720
+ },
+ {
+  "id": 9,
+  "name": "Kaioken",
+  "description": "[Trái Đất] Tấn công cận chiến, mức sát thương lớn Tăng sức đánh: #%",
+  "iconId": 716
+ },
+ {
+  "id": 10,
+  "name": "Quả cầu kênh khi",
+  "description": "[Trái Đất] Quả cầu năng lượng có mức sát thương cực lớn Gây sát thương #%",
+  "iconId": 711
+ },
+ {
+  "id": 11,
+  "name": "Makankosappo",
+  "description": "[Namếc] Chưởng tia lazer xoắn ốc Gây sát thương #%",
+  "iconId": 723
+ },
+ {
+  "id": 12,
+  "name": "Đẻ trứng",
+  "description": "[Namếc] Đẻ trứng tạo quái vật Tạo quái đi theo hỗ trợ",
+  "iconId": 722
+ },
+ {
+  "id": 13,
+  "name": "Biến hình",
+  "description": "[Xayda] Biến hình thành khỉ Tăng sức đánh, HP và tốc độ",
+  "iconId": 718
+ },
+ {
+  "id": 14,
+  "name": "Tự phát nổ",
+  "description": "[Xayda] Tự phát nổ Hy sinh, gây sát thương lớn cho kẻ thù",
+  "iconId": 2248
+ },
+ {
+  "id": 15,
+  "name": "Danh",
+  "description": "[Khác] Danh Danh",
+  "iconId": 0
+ },
+ {
+  "id": 16,
+  "name": "Chuong",
+  "description": "[Khác] Chuong Chuong",
+  "iconId": 0
+ },
+ {
+  "id": 17,
+  "name": "Liên hoàn",
+  "description": "[Namếc] Liên hoàn Tăng sức đánh: #%",
+  "iconId": 3778
+ },
+ {
+  "id": 18,
+  "name": "Biến Sôcôla",
+  "description": "[Namếc] Biến socola Biến quái thành Sôcôla",
+  "iconId": 3780
+ },
+ {
+  "id": 19,
+  "name": "Khiên năng lượng",
+  "description": "[Dùng chung] Khiên năng lượng Vô hiệu các đòn tấn công",
+  "iconId": 3784
+ },
+ {
+  "id": 20,
+  "name": "Dịch chuyển tức thời",
+  "description": "[Trái Đất] Dịch chuyển tức thời Dịch chuyển tức thời và gây choáng kẻ thù",
+  "iconId": 3783
+ },
+ {
+  "id": 21,
+  "name": "Huýt sáo",
+  "description": "[Xayda] Huýt sáo Tăng tạm thời +#%HP cho mọi người xung quanh và +1 đòn chí mạng",
+  "iconId": 3781
+ },
+ {
+  "id": 22,
+  "name": "Thôi miên",
+  "description": "[Trái Đất] Thôi miên Ru ngủ kẻ thù # giây",
+  "iconId": 3782
+ },
+ {
+  "id": 23,
+  "name": "Trói",
+  "description": "[Xayda] Trói Trói kẻ thù",
+  "iconId": 3779
+ },
+ {
+  "id": 24,
+  "name": "Super Kamejoko",
+  "description": "[Trái Đất] Đánh xa nhờ năng lượng Tăng sức đánh: #%",
+  "iconId": 11162
+ },
+ {
+  "id": 25,
+  "name": "Cađíc liên hoàn chưởng",
+  "description": "[Xayda] Đánh xa nhờ năng lượng Tăng sức đánh: #%",
+  "iconId": 11193
+ },
+ {
+  "id": 26,
+  "name": "Ma phong ba",
+  "description": "[Namếc] Nhốt đối thủ vào bình chứa Gây sát thương chuẩn mỗi giây bằng #% max HP bản thân",
+  "iconId": 11194
+ }
+]

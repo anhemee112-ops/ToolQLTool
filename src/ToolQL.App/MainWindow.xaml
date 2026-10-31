@@ -1,0 +1,152 @@
+<Window x:Class="ToolQL.App.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="ToolQL" Width="1180" Height="640" MinWidth="900" MinHeight="460"
+        Icon="Assets/ql-logo.png"
+        Background="{StaticResource BgBrush}" Foreground="{StaticResource TextBrush}"
+        FontFamily="Segoe UI" FontSize="13" UseLayoutRounding="True">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+
+        <!-- Thanh menu -->
+        <Menu Grid.Row="0" Background="{StaticResource PanelBrush}" Padding="4,2">
+            <MenuItem Header="File">
+                <MenuItem Header="Thêm tài khoản…" Click="OnAdd"/>
+                <MenuItem Header="Thêm nhiều tài khoản…" Click="OnBulkAdd"/>
+                <Separator/>
+                <MenuItem Header="Thoát" Click="OnExit"/>
+            </MenuItem>
+            <MenuItem Header="Cài đặt">
+                <MenuItem Header="Cài đặt chung…" Click="OnSettings"/>
+                <MenuItem Header="Tải lại dữ liệu game…" Click="OnMakeTemplate"/>
+            </MenuItem>
+            <MenuItem Header="View">
+                <MenuItem Header="Sắp xếp tài khoản">
+                    <MenuItem x:Name="SortAdded" Header="Theo thứ tự thêm" IsCheckable="True" Click="OnSortChanged" Tag="added"/>
+                    <MenuItem x:Name="SortServer" Header="Theo server" IsCheckable="True" Click="OnSortChanged" Tag="server"/>
+                    <MenuItem x:Name="SortAlpha" Header="Theo bảng chữ cái" IsCheckable="True" Click="OnSortChanged" Tag="alpha"/>
+                </MenuItem>
+                <MenuItem x:Name="HideNamesItem" Header="Ẩn tên tài khoản" IsCheckable="True" Click="OnHideNames"/>
+            </MenuItem>
+            <MenuItem Header="Trợ giúp">
+                <MenuItem Header="Phiên bản" Click="OnAbout"/>
+            </MenuItem>
+        </Menu>
+
+        <!-- Hàng nút trên -->
+        <Border Grid.Row="1" Background="{StaticResource PanelBrush}" BorderBrush="{StaticResource LineBrush}" BorderThickness="0,1,0,0" Padding="12,8,12,4">
+            <WrapPanel>
+                <Button x:Name="AddButton" Content="+ Thêm" Click="OnAdd"/>
+                <Button x:Name="RemoveButton" Content="Xóa" Click="OnRemove"/>
+                <Button x:Name="LoginButton" Content="▶ Login" Style="{StaticResource PrimaryButton}" Click="OnLogin"/>
+                <Button x:Name="CloseButton" Content="Đóng" Click="OnClose"/>
+                <Button x:Name="LoginAllButton" Content="Login tất cả" Click="OnLoginAll"/>
+                <Button x:Name="StopAllButton" Content="Tắt tất cả" Click="OnStopAll"/>
+                <Button x:Name="TickButton" Content="Tick" Click="OnTick"/>
+                <Button x:Name="UntickButton" Content="Bỏ tick" Click="OnUntick"/>
+            </WrapPanel>
+        </Border>
+
+        <!-- Hàng nút dưới -->
+        <Border Grid.Row="2" Background="{StaticResource PanelBrush}" BorderBrush="{StaticResource LineBrush}" BorderThickness="0,0,0,1" Padding="12,4,12,8">
+            <WrapPanel>
+                <ToggleButton x:Name="AutoLoginToggle" Content="Auto login: TẮT" Style="{StaticResource SwitchButton}" Checked="OnAutoLoginToggle" Unchecked="OnAutoLoginToggle"/>
+                <Button x:Name="ArrangeButton" Content="Xếp cửa sổ" Click="OnArrange"/>
+                <Button x:Name="HideClientsButton" Content="Ẩn client" Click="OnHideClients"/>
+                <Button x:Name="ShowAllButton" Content="SHOW ALL" Click="OnShowAll"/>
+            </WrapPanel>
+        </Border>
+
+        <!-- Nội dung: bảng acc | thẻ vàng -->
+        <Grid Grid.Row="3" Margin="12">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="12"/>
+                <ColumnDefinition Width="280"/>
+            </Grid.ColumnDefinitions>
+
+            <Border Grid.Column="0" Background="{StaticResource PanelBrush}" BorderBrush="{StaticResource LineBrush}" BorderThickness="1" CornerRadius="8">
+                <Grid>
+                    <ListView x:Name="AccountList" BorderThickness="0" Background="Transparent" SelectionMode="Extended"
+                              SelectionChanged="OnSelectionChanged" MouseDoubleClick="OnListDoubleClick">
+                        <ListView.ItemContainerStyle>
+                            <Style TargetType="ListViewItem">
+                                <Setter Property="Padding" Value="2,4"/>
+                                <Setter Property="HorizontalContentAlignment" Value="Stretch"/>
+                                <Setter Property="ToolTip" Value="{Binding StateText}"/>
+                            </Style>
+                        </ListView.ItemContainerStyle>
+                        <ListView.ContextMenu>
+                            <ContextMenu>
+                                <MenuItem Header="Login" Click="OnLogin"/>
+                                <MenuItem Header="Đóng" Click="OnClose"/>
+                                <Separator/>
+                                <MenuItem Header="Sửa tài khoản…" Click="OnEdit"/>
+                                <MenuItem Header="Mở thư mục dữ liệu của acc" Click="OnOpenDataDir"/>
+                                <MenuItem Header="Xóa" Click="OnRemove"/>
+                            </ContextMenu>
+                        </ListView.ContextMenu>
+                        <ListView.View>
+                            <GridView>
+                                <GridViewColumn Header="STT" Width="46" DisplayMemberBinding="{Binding Index}"/>
+                                <GridViewColumn Header="TK" Width="150" DisplayMemberBinding="{Binding UserDisplay}"/>
+                                <GridViewColumn Header="SV" Width="46" DisplayMemberBinding="{Binding ServerNumber}"/>
+                                <GridViewColumn Header="Ghi chú" Width="130" DisplayMemberBinding="{Binding Note}"/>
+                                <GridViewColumn Header="Status" Width="210">
+                                    <GridViewColumn.CellTemplate>
+                                        <DataTemplate>
+                                            <TextBlock Text="{Binding StateText}" Foreground="{Binding StateBrush}" FontWeight="SemiBold" TextTrimming="CharacterEllipsis"/>
+                                        </DataTemplate>
+                                    </GridViewColumn.CellTemplate>
+                                </GridViewColumn>
+                                <GridViewColumn Header="Hiện" Width="64">
+                                    <GridViewColumn.CellTemplate>
+                                        <DataTemplate>
+                                            <Button Content="Hiện" Padding="8,1" Margin="0" Click="OnShowOne"/>
+                                        </DataTemplate>
+                                    </GridViewColumn.CellTemplate>
+                                </GridViewColumn>
+                                <GridViewColumn Header="✓" Width="40">
+                                    <GridViewColumn.CellTemplate>
+                                        <DataTemplate>
+                                            <CheckBox IsChecked="{Binding Tick, Mode=TwoWay}" HorizontalAlignment="Center"/>
+                                        </DataTemplate>
+                                    </GridViewColumn.CellTemplate>
+                                </GridViewColumn>
+                            </GridView>
+                        </ListView.View>
+                    </ListView>
+                    <TextBlock x:Name="EmptyHint" Text="Chưa có acc nào.&#x0A;Bấm &quot;+ Thêm&quot; hoặc File → Thêm nhiều tài khoản."
+                               HorizontalAlignment="Center" VerticalAlignment="Center" TextAlignment="Center"
+                               Foreground="{StaticResource MutedBrush}" IsHitTestVisible="False"/>
+                </Grid>
+            </Border>
+
+            <!-- Thẻ vàng: thông tin dòng đang chọn -->
+            <Border Grid.Column="2" Background="{StaticResource CardBrush}" BorderBrush="{StaticResource CardLineBrush}" BorderThickness="1" CornerRadius="8" Padding="14">
+                <StackPanel>
+                    <StackPanel Orientation="Horizontal" Margin="0,0,0,10">
+                        <Image Source="Assets/ql-logo.png" Width="56" Height="56" RenderOptions.BitmapScalingMode="HighQuality"/>
+                        <StackPanel Margin="10,0,0,0" VerticalAlignment="Center">
+                            <TextBlock Text="ToolQL" FontSize="20" FontWeight="Bold"/>
+                            <TextBlock x:Name="CardTitle" Text="Chọn một acc" Foreground="{StaticResource MutedBrush}"/>
+                        </StackPanel>
+                    </StackPanel>
+                    <TextBlock x:Name="CardBody" TextWrapping="Wrap" LineHeight="20"/>
+                    <TextBlock x:Name="CardError" TextWrapping="Wrap" Foreground="#C0392B" Margin="0,8,0,0"/>
+                </StackPanel>
+            </Border>
+        </Grid>
+
+        <!-- Thanh trạng thái -->
+        <Border Grid.Row="4" Background="{StaticResource PanelBrush}" BorderBrush="{StaticResource LineBrush}" BorderThickness="0,1,0,0" Padding="14,6">
+            <TextBlock x:Name="StatusText" Foreground="{StaticResource MutedBrush}" TextTrimming="CharacterEllipsis"/>
+        </Border>
+    </Grid>
+</Window>

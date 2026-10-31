@@ -1,0 +1,500 @@
+[
+ {
+  "id": 0,
+  "name": "Ông Gôhan",
+  "description": "",
+  "iconId": 0
+ },
+ {
+  "id": 1,
+  "name": "Ông Paragus",
+  "description": "",
+  "iconId": 1
+ },
+ {
+  "id": 2,
+  "name": "Ông Moori",
+  "description": "",
+  "iconId": 2
+ },
+ {
+  "id": 3,
+  "name": "Rương đồ",
+  "description": "",
+  "iconId": 3
+ },
+ {
+  "id": 4,
+  "name": "Đậu thần",
+  "description": "",
+  "iconId": 4
+ },
+ {
+  "id": 5,
+  "name": "Con mèo",
+  "description": "",
+  "iconId": 5
+ },
+ {
+  "id": 6,
+  "name": "Khu vực",
+  "description": "",
+  "iconId": 6
+ },
+ {
+  "id": 7,
+  "name": "Bunma",
+  "description": "",
+  "iconId": 7
+ },
+ {
+  "id": 8,
+  "name": "Dende",
+  "description": "",
+  "iconId": 8
+ },
+ {
+  "id": 9,
+  "name": "Appule",
+  "description": "",
+  "iconId": 9
+ },
+ {
+  "id": 10,
+  "name": "Dr. Brief",
+  "description": "",
+  "iconId": 10
+ },
+ {
+  "id": 11,
+  "name": "Cargo",
+  "description": "",
+  "iconId": 11
+ },
+ {
+  "id": 12,
+  "name": "Cui",
+  "description": "",
+  "iconId": 12
+ },
+ {
+  "id": 13,
+  "name": "Quy Lão Kame",
+  "description": "",
+  "iconId": 13
+ },
+ {
+  "id": 14,
+  "name": "Trưởng lão Guru",
+  "description": "",
+  "iconId": 14
+ },
+ {
+  "id": 15,
+  "name": "Vua Vegeta",
+  "description": "",
+  "iconId": 15
+ },
+ {
+  "id": 16,
+  "name": "Uron",
+  "description": "",
+  "iconId": 16
+ },
+ {
+  "id": 17,
+  "name": "Bò Mộng",
+  "description": "",
+  "iconId": 17
+ },
+ {
+  "id": 18,
+  "name": "Thần mèo Karin",
+  "description": "",
+  "iconId": 18
+ },
+ {
+  "id": 19,
+  "name": "Thượng Đế",
+  "description": "",
+  "iconId": 19
+ },
+ {
+  "id": 20,
+  "name": "Thần Vũ Trụ",
+  "description": "",
+  "iconId": 20
+ },
+ {
+  "id": 21,
+  "name": "Bà Hạt Mít",
+  "description": "",
+  "iconId": 21
+ },
+ {
+  "id": 22,
+  "name": "Trọng tài",
+  "description": "",
+  "iconId": 22
+ },
+ {
+  "id": 23,
+  "name": "Ghi danh",
+  "description": "",
+  "iconId": 23
+ },
+ {
+  "id": 24,
+  "name": "Rồng Thiêng",
+  "description": "",
+  "iconId": 24
+ },
+ {
+  "id": 25,
+  "name": "Lính canh",
+  "description": "",
+  "iconId": 25
+ },
+ {
+  "id": 26,
+  "name": "Độc Nhãn",
+  "description": "",
+  "iconId": 26
+ },
+ {
+  "id": 27,
+  "name": "Rồng Thiêng Namếc",
+  "description": "",
+  "iconId": 27
+ },
+ {
+  "id": 28,
+  "name": "Cửa hàng ký gửi",
+  "description": "",
+  "iconId": 28
+ },
+ {
+  "id": 29,
+  "name": "Rồng Omega",
+  "description": "",
+  "iconId": 29
+ },
+ {
+  "id": 30,
+  "name": "Rồng 2 sao",
+  "description": "",
+  "iconId": 30
+ },
+ {
+  "id": 31,
+  "name": "Rồng 3 sao",
+  "description": "",
+  "iconId": 31
+ },
+ {
+  "id": 32,
+  "name": "Rồng 4 sao",
+  "description": "",
+  "iconId": 32
+ },
+ {
+  "id": 33,
+  "name": "Rồng 5 sao",
+  "description": "",
+  "iconId": 33
+ },
+ {
+  "id": 34,
+  "name": "Rồng 6 sao",
+  "description": "",
+  "iconId": 34
+ },
+ {
+  "id": 35,
+  "name": "Rồng 7 sao",
+  "description": "",
+  "iconId": 35
+ },
+ {
+  "id": 36,
+  "name": "Rồng 1 sao",
+  "description": "",
+  "iconId": 36
+ },
+ {
+  "id": 37,
+  "name": "Bunma",
+  "description": "",
+  "iconId": 37
+ },
+ {
+  "id": 38,
+  "name": "Ca Lích",
+  "description": "",
+  "iconId": 38
+ },
+ {
+  "id": 39,
+  "name": "Santa",
+  "description": "",
+  "iconId": 39
+ },
+ {
+  "id": 40,
+  "name": "Mabư mập",
+  "description": "",
+  "iconId": 40
+ },
+ {
+  "id": 42,
+  "name": "Quốc Vương",
+  "description": "",
+  "iconId": 42
+ },
+ {
+  "id": 43,
+  "name": "Tổ Sư Kaio",
+  "description": "",
+  "iconId": 43
+ },
+ {
+  "id": 44,
+  "name": "Ôsin",
+  "description": "",
+  "iconId": 44
+ },
+ {
+  "id": 45,
+  "name": "Kibit",
+  "description": "",
+  "iconId": 45
+ },
+ {
+  "id": 46,
+  "name": "Babiđây",
+  "description": "",
+  "iconId": 46
+ },
+ {
+  "id": 47,
+  "name": "Giu-ma Đầu Bò",
+  "description": "",
+  "iconId": 47
+ },
+ {
+  "id": 48,
+  "name": "Ngộ Không",
+  "description": "",
+  "iconId": 48
+ },
+ {
+  "id": 49,
+  "name": "Đường Tăng",
+  "description": "",
+  "iconId": 49
+ },
+ {
+  "id": 50,
+  "name": "Quả trứng",
+  "description": "",
+  "iconId": 50
+ },
+ {
+  "id": 51,
+  "name": "Dưa hấu",
+  "description": "",
+  "iconId": 51
+ },
+ {
+  "id": 52,
+  "name": "Hùng Vương",
+  "description": "",
+  "iconId": 52
+ },
+ {
+  "id": 53,
+  "name": "Tapion",
+  "description": "",
+  "iconId": 53
+ },
+ {
+  "id": 54,
+  "name": "Lý Tiểu Nương",
+  "description": "",
+  "iconId": 54
+ },
+ {
+  "id": 55,
+  "name": "Bill",
+  "description": "",
+  "iconId": 55
+ },
+ {
+  "id": 56,
+  "name": "Whis",
+  "description": "",
+  "iconId": 56
+ },
+ {
+  "id": 57,
+  "name": "Champa",
+  "description": "",
+  "iconId": 57
+ },
+ {
+  "id": 58,
+  "name": "Vados",
+  "description": "",
+  "iconId": 58
+ },
+ {
+  "id": 59,
+  "name": "Trọng tài",
+  "description": "",
+  "iconId": 59
+ },
+ {
+  "id": 60,
+  "name": "Goku SSJ",
+  "description": "",
+  "iconId": 60
+ },
+ {
+  "id": 61,
+  "name": "Goku SSJ",
+  "description": "",
+  "iconId": 61
+ },
+ {
+  "id": 62,
+  "name": "Potage",
+  "description": "",
+  "iconId": 62
+ },
+ {
+  "id": 63,
+  "name": "Jaco",
+  "description": "",
+  "iconId": 63
+ },
+ {
+  "id": 65,
+  "name": "Yarirobe",
+  "description": "",
+  "iconId": 65
+ },
+ {
+  "id": 66,
+  "name": "Nồi bánh",
+  "description": "",
+  "iconId": 66
+ },
+ {
+  "id": 67,
+  "name": "Mr Popo",
+  "description": "",
+  "iconId": 67
+ },
+ {
+  "id": 68,
+  "name": "Panchy",
+  "description": "",
+  "iconId": 68
+ },
+ {
+  "id": 69,
+  "name": "Thỏ Đại Ca",
+  "description": "",
+  "iconId": 69
+ },
+ {
+  "id": 70,
+  "name": "Bardock",
+  "description": "",
+  "iconId": 70
+ },
+ {
+  "id": 71,
+  "name": "Berry",
+  "description": "",
+  "iconId": 71
+ },
+ {
+  "id": 72,
+  "name": "Ca Đíc",
+  "description": "",
+  "iconId": 72
+ },
+ {
+  "id": 73,
+  "name": "Fide",
+  "description": "",
+  "iconId": 73
+ },
+ {
+  "id": 74,
+  "name": "Tori-Bot",
+  "description": "",
+  "iconId": 74
+ },
+ {
+  "id": 75,
+  "name": "King Furry",
+  "description": "",
+  "iconId": 75
+ },
+ {
+  "id": 76,
+  "name": "Mai",
+  "description": "",
+  "iconId": 76
+ },
+ {
+  "id": 77,
+  "name": "Fu",
+  "description": "",
+  "iconId": 77
+ },
+ {
+  "id": 78,
+  "name": "test16",
+  "description": "",
+  "iconId": 78
+ },
+ {
+  "id": 80,
+  "name": "Bông hồng",
+  "description": "",
+  "iconId": 80
+ },
+ {
+  "id": 82,
+  "name": "Chi Chi",
+  "description": "",
+  "iconId": 82
+ },
+ {
+  "id": 83,
+  "name": "Dr. Myuu",
+  "description": "",
+  "iconId": 83
+ },
+ {
+  "id": 84,
+  "name": "Rương sưu tập",
+  "description": "",
+  "iconId": 84
+ },
+ {
+  "id": 85,
+  "name": "Zeno",
+  "description": "",
+  "iconId": 85
+ },
+ {
+  "id": 87,
+  "name": "Mai Đào",
+  "description": "",
+  "iconId": 87
+ }
+]

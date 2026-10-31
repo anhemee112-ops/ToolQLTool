@@ -1,0 +1,584 @@
+[
+ {
+  "id": 0,
+  "name": "Mộc nhân",
+  "description": "HP: 100",
+  "iconId": 0
+ },
+ {
+  "id": 1,
+  "name": "Khủng long",
+  "description": "HP: 200",
+  "iconId": 1
+ },
+ {
+  "id": 2,
+  "name": "Lợn lòi",
+  "description": "HP: 200",
+  "iconId": 2
+ },
+ {
+  "id": 3,
+  "name": "Quỷ đất",
+  "description": "HP: 200",
+  "iconId": 3
+ },
+ {
+  "id": 4,
+  "name": "Khủng long mẹ",
+  "description": "HP: 500",
+  "iconId": 4
+ },
+ {
+  "id": 5,
+  "name": "Lợn lòi mẹ",
+  "description": "HP: 500",
+  "iconId": 5
+ },
+ {
+  "id": 6,
+  "name": "Quỷ đất mẹ",
+  "description": "HP: 500",
+  "iconId": 6
+ },
+ {
+  "id": 7,
+  "name": "Thằn lằn bay",
+  "description": "HP: 600",
+  "iconId": 7
+ },
+ {
+  "id": 8,
+  "name": "Phi long",
+  "description": "HP: 600",
+  "iconId": 8
+ },
+ {
+  "id": 9,
+  "name": "Quỷ bay",
+  "description": "HP: 600",
+  "iconId": 9
+ },
+ {
+  "id": 10,
+  "name": "Thằn lằn mẹ",
+  "description": "HP: 1000",
+  "iconId": 10
+ },
+ {
+  "id": 11,
+  "name": "Phi long mẹ",
+  "description": "HP: 1000",
+  "iconId": 11
+ },
+ {
+  "id": 12,
+  "name": "Quỷ bay mẹ",
+  "description": "HP: 1000",
+  "iconId": 12
+ },
+ {
+  "id": 13,
+  "name": "Ốc mượn hồn",
+  "description": "HP: 3000",
+  "iconId": 13
+ },
+ {
+  "id": 14,
+  "name": "Ốc sên",
+  "description": "HP: 3000",
+  "iconId": 14
+ },
+ {
+  "id": 15,
+  "name": "Heo Xayda mẹ",
+  "description": "HP: 3000",
+  "iconId": 15
+ },
+ {
+  "id": 16,
+  "name": "Heo rừng",
+  "description": "HP: 1500",
+  "iconId": 16
+ },
+ {
+  "id": 17,
+  "name": "Heo da xanh",
+  "description": "HP: 1500",
+  "iconId": 17
+ },
+ {
+  "id": 18,
+  "name": "Heo Xayda",
+  "description": "HP: 1500",
+  "iconId": 18
+ },
+ {
+  "id": 19,
+  "name": "Heo rừng mẹ",
+  "description": "HP: 12000",
+  "iconId": 19
+ },
+ {
+  "id": 20,
+  "name": "Heo xanh mẹ",
+  "description": "HP: 12000",
+  "iconId": 20
+ },
+ {
+  "id": 21,
+  "name": "Alien",
+  "description": "HP: 12000",
+  "iconId": 21
+ },
+ {
+  "id": 22,
+  "name": "Bulon",
+  "description": "HP: 6000",
+  "iconId": 22
+ },
+ {
+  "id": 23,
+  "name": "Ukulele",
+  "description": "HP: 6000",
+  "iconId": 23
+ },
+ {
+  "id": 24,
+  "name": "Quỷ mập",
+  "description": "HP: 6000",
+  "iconId": 24
+ },
+ {
+  "id": 25,
+  "name": "Tambourine",
+  "description": "HP: 20000",
+  "iconId": 25
+ },
+ {
+  "id": 26,
+  "name": "Drum",
+  "description": "HP: 20000",
+  "iconId": 26
+ },
+ {
+  "id": 27,
+  "name": "Akkuman",
+  "description": "HP: 20000",
+  "iconId": 27
+ },
+ {
+  "id": 28,
+  "name": "Thằn lằn bay 2",
+  "description": "HP: 1500",
+  "iconId": 28
+ },
+ {
+  "id": 29,
+  "name": "Phi long 2",
+  "description": "HP: 1500",
+  "iconId": 29
+ },
+ {
+  "id": 30,
+  "name": "Quỷ bay 2",
+  "description": "HP: 1500",
+  "iconId": 30
+ },
+ {
+  "id": 31,
+  "name": "Không tặc",
+  "description": "HP: 3000",
+  "iconId": 31
+ },
+ {
+  "id": 32,
+  "name": "Quỷ đầu to",
+  "description": "HP: 3000",
+  "iconId": 32
+ },
+ {
+  "id": 33,
+  "name": "Quỷ địa ngục",
+  "description": "HP: 3000",
+  "iconId": 33
+ },
+ {
+  "id": 34,
+  "name": "Lính độc nhãn",
+  "description": "HP: 30000",
+  "iconId": 34
+ },
+ {
+  "id": 35,
+  "name": "Lính độc nhãn",
+  "description": "HP: 30000",
+  "iconId": 35
+ },
+ {
+  "id": 36,
+  "name": "Sói xám",
+  "description": "HP: 30000",
+  "iconId": 36
+ },
+ {
+  "id": 37,
+  "name": "Robot bay",
+  "description": "HP: 30000",
+  "iconId": 37
+ },
+ {
+  "id": 38,
+  "name": "Robot thép",
+  "description": "HP: 30000",
+  "iconId": 38
+ },
+ {
+  "id": 39,
+  "name": "Nappa",
+  "description": "HP: 40000",
+  "iconId": 39
+ },
+ {
+  "id": 40,
+  "name": "Soldier",
+  "description": "HP: 50000",
+  "iconId": 40
+ },
+ {
+  "id": 41,
+  "name": "Appule",
+  "description": "HP: 60000",
+  "iconId": 41
+ },
+ {
+  "id": 42,
+  "name": "Raspberry",
+  "description": "HP: 70000",
+  "iconId": 42
+ },
+ {
+  "id": 43,
+  "name": "Thằn lằn xanh",
+  "description": "HP: 80000",
+  "iconId": 43
+ },
+ {
+  "id": 44,
+  "name": "Quỷ đầu nhọn",
+  "description": "HP: 90000",
+  "iconId": 44
+ },
+ {
+  "id": 45,
+  "name": "Quỷ đầu vàng",
+  "description": "HP: 100000",
+  "iconId": 45
+ },
+ {
+  "id": 46,
+  "name": "Quỷ da tím",
+  "description": "HP: 110000",
+  "iconId": 46
+ },
+ {
+  "id": 47,
+  "name": "Quỷ già",
+  "description": "HP: 120000",
+  "iconId": 47
+ },
+ {
+  "id": 48,
+  "name": "Cá sấu",
+  "description": "HP: 130000",
+  "iconId": 48
+ },
+ {
+  "id": 49,
+  "name": "Dơi da xanh",
+  "description": "HP: 140000",
+  "iconId": 49
+ },
+ {
+  "id": 50,
+  "name": "Quỷ chim",
+  "description": "HP: 180000",
+  "iconId": 50
+ },
+ {
+  "id": 51,
+  "name": "Lính đầu trọc",
+  "description": "HP: 150000",
+  "iconId": 51
+ },
+ {
+  "id": 52,
+  "name": "Lính tai dài",
+  "description": "HP: 160000",
+  "iconId": 52
+ },
+ {
+  "id": 53,
+  "name": "Lính vũ trụ",
+  "description": "HP: 170000",
+  "iconId": 53
+ },
+ {
+  "id": 54,
+  "name": "Khỉ lông đen",
+  "description": "HP: 300000",
+  "iconId": 54
+ },
+ {
+  "id": 55,
+  "name": "Khỉ giáp sắt",
+  "description": "HP: 350000",
+  "iconId": 55
+ },
+ {
+  "id": 56,
+  "name": "Khỉ lông đỏ",
+  "description": "HP: 400000",
+  "iconId": 56
+ },
+ {
+  "id": 57,
+  "name": "Khỉ lông vàng",
+  "description": "HP: 450000",
+  "iconId": 57
+ },
+ {
+  "id": 58,
+  "name": "Xên con cấp 1",
+  "description": "HP: 200000",
+  "iconId": 58
+ },
+ {
+  "id": 59,
+  "name": "Xên con cấp 2",
+  "description": "HP: 250000",
+  "iconId": 59
+ },
+ {
+  "id": 60,
+  "name": "Xên con cấp 3",
+  "description": "HP: 300000",
+  "iconId": 60
+ },
+ {
+  "id": 61,
+  "name": "Xên con cấp  4",
+  "description": "HP: 350000",
+  "iconId": 61
+ },
+ {
+  "id": 62,
+  "name": "Xên con cấp  5",
+  "description": "HP: 400000",
+  "iconId": 62
+ },
+ {
+  "id": 63,
+  "name": "Xên con cấp  6",
+  "description": "HP: 450000",
+  "iconId": 63
+ },
+ {
+  "id": 64,
+  "name": "Xên con cấp  7",
+  "description": "HP: 500000",
+  "iconId": 64
+ },
+ {
+  "id": 65,
+  "name": "Xên con cấp  8",
+  "description": "HP: 550000",
+  "iconId": 65
+ },
+ {
+  "id": 66,
+  "name": "Tai tím",
+  "description": "HP: 350000",
+  "iconId": 66
+ },
+ {
+  "id": 67,
+  "name": "Abo",
+  "description": "HP: 400000",
+  "iconId": 67
+ },
+ {
+  "id": 68,
+  "name": "Kado",
+  "description": "HP: 450000",
+  "iconId": 68
+ },
+ {
+  "id": 69,
+  "name": "Da xanh",
+  "description": "HP: 500000",
+  "iconId": 69
+ },
+ {
+  "id": 70,
+  "name": "Hirudegarn",
+  "description": "HP: 40000000",
+  "iconId": 70
+ },
+ {
+  "id": 71,
+  "name": "Vua Bạch Tuộc",
+  "description": "HP: 1500000",
+  "iconId": 71
+ },
+ {
+  "id": 72,
+  "name": "Rôbốt bảo vệ",
+  "description": "HP: 1000000",
+  "iconId": 72
+ },
+ {
+  "id": 73,
+  "name": "Kawazu",
+  "description": "HP: 50000",
+  "iconId": 73
+ },
+ {
+  "id": 74,
+  "name": "Kinkarn",
+  "description": "HP: 55000",
+  "iconId": 74
+ },
+ {
+  "id": 75,
+  "name": "Arbee",
+  "description": "HP: 60000",
+  "iconId": 75
+ },
+ {
+  "id": 76,
+  "name": "Cỗ máy hủy diệt",
+  "description": "HP: 80000",
+  "iconId": 76
+ },
+ {
+  "id": 77,
+  "name": "Gấu tướng cướp",
+  "description": "HP: 8000000000",
+  "iconId": 77
+ },
+ {
+  "id": 78,
+  "name": "Khỉ lông xanh",
+  "description": "HP: 2000000",
+  "iconId": 78
+ },
+ {
+  "id": 79,
+  "name": "Taburine Đỏ",
+  "description": "HP: 3000000",
+  "iconId": 79
+ },
+ {
+  "id": 80,
+  "name": "Cabira",
+  "description": "HP: 4000000",
+  "iconId": 80
+ },
+ {
+  "id": 81,
+  "name": "Tobi",
+  "description": "HP: 5000000",
+  "iconId": 81
+ },
+ {
+  "id": 82,
+  "name": "Voi Chín Ngà",
+  "description": "HP: 20000000",
+  "iconId": 82
+ },
+ {
+  "id": 83,
+  "name": "Gà Chín Cựa",
+  "description": "HP: 12000000",
+  "iconId": 83
+ },
+ {
+  "id": 84,
+  "name": "Ngựa Chín Lmao",
+  "description": "HP: 15000000",
+  "iconId": 84
+ },
+ {
+  "id": 85,
+  "name": "Piano",
+  "description": "HP: 10000000000",
+  "iconId": 85
+ },
+ {
+  "id": 86,
+  "name": "Ếch mặt đỏ",
+  "description": "HP: 4000000",
+  "iconId": 86
+ },
+ {
+  "id": 87,
+  "name": "Jinai",
+  "description": "HP: 6000000",
+  "iconId": 87
+ },
+ {
+  "id": 88,
+  "name": "Quỷ đỏ",
+  "description": "HP: 1000000",
+  "iconId": 88
+ },
+ {
+  "id": 89,
+  "name": "Quỷ xanh",
+  "description": "HP: 1500000",
+  "iconId": 89
+ },
+ {
+  "id": 90,
+  "name": "Quỷ xanh lá",
+  "description": "HP: 1000000",
+  "iconId": 90
+ },
+ {
+  "id": 91,
+  "name": "Quỷ vàng",
+  "description": "HP: 1500000",
+  "iconId": 91
+ },
+ {
+  "id": 92,
+  "name": "Godzilla",
+  "description": "HP: 1500000",
+  "iconId": 92
+ },
+ {
+  "id": 93,
+  "name": "Kong",
+  "description": "HP: 1500000",
+  "iconId": 93
+ },
+ {
+  "id": 94,
+  "name": "Máy đo sức mạnh",
+  "description": "HP: 5000000000",
+  "iconId": 94
+ },
+ {
+  "id": 95,
+  "name": "Cađíc M",
+  "description": "HP: 6000000",
+  "iconId": 95
+ },
+ {
+  "id": 96,
+  "name": "Quái mới",
+  "description": "HP: 6000000",
+  "iconId": 96
+ }
+]

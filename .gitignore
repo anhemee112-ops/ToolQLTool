@@ -1,0 +1,35 @@
+# Build
+bin/
+obj/
+publish/
+release/
+*.user
+*.suo
+.vs/
+
+# Dữ liệu tải về / công cụ ngoài (để ngoài repo, đây là lưới an toàn)
+*.jar
+*.class
+jre/
+decompiled-*/
+ToolQL-input/
+
+# Tài khoản và bí mật: tuyệt đối không commit
+test-account.env
+*.env
+ModData/
+**/ModData/
+accounts.json
+
+# Ghi chép và log cục bộ
+*.log
+*.err.log
+.claude/settings.local.json
+.superpowers/
+
+# Hệ điều hành / công cụ
+.DS_Store
+Thumbs.db
+
+# Gói bắt từ server (để ngoài repo, đây là lưới an toàn)
+captures/

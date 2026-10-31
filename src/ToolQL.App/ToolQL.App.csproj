@@ -1,0 +1,29 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <ItemGroup>
+    <ProjectReference Include="..\ToolQL.Protocol\ToolQL.Protocol.csproj" />
+    <ProjectReference Include="..\ToolQL.Core\ToolQL.Core.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <!-- Giao diện cũ (tự vẽ map trong cửa sổ quản lý): giữ lại làm tham chiếu, không biên dịch. -->
+    <Compile Remove="_cu\**" />
+    <Page Remove="_cu\**" />
+    <None Include="_cu\**" />
+    <Resource Include="Assets\ql-logo.png" />
+  </ItemGroup>
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <UseWPF>true</UseWPF>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <AssemblyName>ToolQL</AssemblyName>
+    <RootNamespace>ToolQL.App</RootNamespace>
+    <ApplicationIcon>Assets\ql.ico</ApplicationIcon>
+    <Version>0.1.0</Version>
+    <Product>ToolQL</Product>
+  </PropertyGroup>
+
+</Project>

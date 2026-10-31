@@ -1,0 +1,1124 @@
+[
+ {
+  "id": 0,
+  "name": "Làng Aru",
+  "description": "",
+  "iconId": 0
+ },
+ {
+  "id": 1,
+  "name": "Đồi hoa cúc",
+  "description": "",
+  "iconId": 1
+ },
+ {
+  "id": 2,
+  "name": "Thung lũng tre",
+  "description": "",
+  "iconId": 2
+ },
+ {
+  "id": 3,
+  "name": "Rừng nấm",
+  "description": "",
+  "iconId": 3
+ },
+ {
+  "id": 4,
+  "name": "Rừng xương",
+  "description": "",
+  "iconId": 4
+ },
+ {
+  "id": 5,
+  "name": "Đảo Kamê",
+  "description": "",
+  "iconId": 5
+ },
+ {
+  "id": 6,
+  "name": "Đông Karin",
+  "description": "",
+  "iconId": 6
+ },
+ {
+  "id": 7,
+  "name": "Làng Mori",
+  "description": "",
+  "iconId": 7
+ },
+ {
+  "id": 8,
+  "name": "Đồi nấm tím",
+  "description": "",
+  "iconId": 8
+ },
+ {
+  "id": 9,
+  "name": "Thị trấn Moori",
+  "description": "",
+  "iconId": 9
+ },
+ {
+  "id": 10,
+  "name": "Thung lũng Namếc",
+  "description": "",
+  "iconId": 10
+ },
+ {
+  "id": 11,
+  "name": "Thung lũng Maima",
+  "description": "",
+  "iconId": 11
+ },
+ {
+  "id": 12,
+  "name": "Vực maima",
+  "description": "",
+  "iconId": 12
+ },
+ {
+  "id": 13,
+  "name": "Đảo Guru",
+  "description": "",
+  "iconId": 13
+ },
+ {
+  "id": 14,
+  "name": "Làng Kakarot",
+  "description": "",
+  "iconId": 14
+ },
+ {
+  "id": 15,
+  "name": "Đồi hoang",
+  "description": "",
+  "iconId": 15
+ },
+ {
+  "id": 16,
+  "name": "Làng Plant",
+  "description": "",
+  "iconId": 16
+ },
+ {
+  "id": 17,
+  "name": "Rừng nguyên sinh",
+  "description": "",
+  "iconId": 17
+ },
+ {
+  "id": 18,
+  "name": "Rừng thông Xayda",
+  "description": "",
+  "iconId": 18
+ },
+ {
+  "id": 19,
+  "name": "Thành phố Vegeta",
+  "description": "",
+  "iconId": 19
+ },
+ {
+  "id": 20,
+  "name": "Vách núi đen",
+  "description": "",
+  "iconId": 20
+ },
+ {
+  "id": 21,
+  "name": "Nhà Gôhan",
+  "description": "",
+  "iconId": 21
+ },
+ {
+  "id": 22,
+  "name": "Nhà Moori",
+  "description": "",
+  "iconId": 22
+ },
+ {
+  "id": 23,
+  "name": "Nhà Broly",
+  "description": "",
+  "iconId": 23
+ },
+ {
+  "id": 24,
+  "name": "Trạm tàu vũ trụ",
+  "description": "",
+  "iconId": 24
+ },
+ {
+  "id": 25,
+  "name": "Trạm tàu vũ trụ",
+  "description": "",
+  "iconId": 25
+ },
+ {
+  "id": 26,
+  "name": "Trạm tàu vũ trụ",
+  "description": "",
+  "iconId": 26
+ },
+ {
+  "id": 27,
+  "name": "Rừng Bamboo",
+  "description": "",
+  "iconId": 27
+ },
+ {
+  "id": 28,
+  "name": "Rừng dương xỉ",
+  "description": "",
+  "iconId": 28
+ },
+ {
+  "id": 29,
+  "name": "Nam Kamê",
+  "description": "",
+  "iconId": 29
+ },
+ {
+  "id": 30,
+  "name": "Đảo Bulông",
+  "description": "",
+  "iconId": 30
+ },
+ {
+  "id": 31,
+  "name": "Núi hoa vàng",
+  "description": "",
+  "iconId": 31
+ },
+ {
+  "id": 32,
+  "name": "Núi hoa tím",
+  "description": "",
+  "iconId": 32
+ },
+ {
+  "id": 33,
+  "name": "Nam Guru",
+  "description": "",
+  "iconId": 33
+ },
+ {
+  "id": 34,
+  "name": "Đông Nam Guru",
+  "description": "",
+  "iconId": 34
+ },
+ {
+  "id": 35,
+  "name": "Rừng cọ",
+  "description": "",
+  "iconId": 35
+ },
+ {
+  "id": 36,
+  "name": "Rừng đá",
+  "description": "",
+  "iconId": 36
+ },
+ {
+  "id": 37,
+  "name": "Thung lũng đen",
+  "description": "",
+  "iconId": 37
+ },
+ {
+  "id": 38,
+  "name": "Bờ vực đen",
+  "description": "",
+  "iconId": 38
+ },
+ {
+  "id": 39,
+  "name": "Vách núi Aru",
+  "description": "",
+  "iconId": 39
+ },
+ {
+  "id": 40,
+  "name": "Vách núi Moori",
+  "description": "",
+  "iconId": 40
+ },
+ {
+  "id": 41,
+  "name": "Vực Plant",
+  "description": "",
+  "iconId": 41
+ },
+ {
+  "id": 42,
+  "name": "Vách núi Aru",
+  "description": "",
+  "iconId": 42
+ },
+ {
+  "id": 43,
+  "name": "Vách núi Moori",
+  "description": "",
+  "iconId": 43
+ },
+ {
+  "id": 44,
+  "name": "Vách núi Kakarot",
+  "description": "",
+  "iconId": 44
+ },
+ {
+  "id": 45,
+  "name": "Thần điện",
+  "description": "",
+  "iconId": 45
+ },
+ {
+  "id": 46,
+  "name": "Tháp Karin",
+  "description": "",
+  "iconId": 46
+ },
+ {
+  "id": 47,
+  "name": "Rừng Karin",
+  "description": "",
+  "iconId": 47
+ },
+ {
+  "id": 48,
+  "name": "Hành tinh Kaio",
+  "description": "",
+  "iconId": 48
+ },
+ {
+  "id": 49,
+  "name": "Phòng tập thời gian",
+  "description": "",
+  "iconId": 49
+ },
+ {
+  "id": 50,
+  "name": "Thánh địa Kaio",
+  "description": "",
+  "iconId": 50
+ },
+ {
+  "id": 51,
+  "name": "Đấu trường",
+  "description": "",
+  "iconId": 51
+ },
+ {
+  "id": 52,
+  "name": "Đại hội võ thuật",
+  "description": "",
+  "iconId": 52
+ },
+ {
+  "id": 53,
+  "name": "Tường thành 1",
+  "description": "",
+  "iconId": 53
+ },
+ {
+  "id": 54,
+  "name": "Tầng 3",
+  "description": "",
+  "iconId": 54
+ },
+ {
+  "id": 55,
+  "name": "Tầng 1",
+  "description": "",
+  "iconId": 55
+ },
+ {
+  "id": 56,
+  "name": "Tầng 2",
+  "description": "",
+  "iconId": 56
+ },
+ {
+  "id": 57,
+  "name": "Tầng 4",
+  "description": "",
+  "iconId": 57
+ },
+ {
+  "id": 58,
+  "name": "Tường thành 2",
+  "description": "",
+  "iconId": 58
+ },
+ {
+  "id": 59,
+  "name": "Tường thành 3",
+  "description": "",
+  "iconId": 59
+ },
+ {
+  "id": 60,
+  "name": "Trại độc nhãn 1",
+  "description": "",
+  "iconId": 60
+ },
+ {
+  "id": 61,
+  "name": "Trại độc nhãn 2",
+  "description": "",
+  "iconId": 61
+ },
+ {
+  "id": 62,
+  "name": "Trại độc nhãn 3",
+  "description": "",
+  "iconId": 62
+ },
+ {
+  "id": 63,
+  "name": "Trại lính Fide",
+  "description": "",
+  "iconId": 63
+ },
+ {
+  "id": 64,
+  "name": "Núi dây leo",
+  "description": "",
+  "iconId": 64
+ },
+ {
+  "id": 65,
+  "name": "Núi cây quỷ",
+  "description": "",
+  "iconId": 65
+ },
+ {
+  "id": 66,
+  "name": "Trại quỷ già",
+  "description": "",
+  "iconId": 66
+ },
+ {
+  "id": 67,
+  "name": "Vực chết",
+  "description": "",
+  "iconId": 67
+ },
+ {
+  "id": 68,
+  "name": "Thung lũng Nappa",
+  "description": "",
+  "iconId": 68
+ },
+ {
+  "id": 69,
+  "name": "Vực cấm",
+  "description": "",
+  "iconId": 69
+ },
+ {
+  "id": 70,
+  "name": "Núi Appule",
+  "description": "",
+  "iconId": 70
+ },
+ {
+  "id": 71,
+  "name": "Căn cứ Raspberry",
+  "description": "",
+  "iconId": 71
+ },
+ {
+  "id": 72,
+  "name": "Thung lũng Raspberry",
+  "description": "",
+  "iconId": 72
+ },
+ {
+  "id": 73,
+  "name": "Thung lũng chết",
+  "description": "",
+  "iconId": 73
+ },
+ {
+  "id": 74,
+  "name": "Đồi cây Fide",
+  "description": "",
+  "iconId": 74
+ },
+ {
+  "id": 75,
+  "name": "Khe núi tử thần",
+  "description": "",
+  "iconId": 75
+ },
+ {
+  "id": 76,
+  "name": "Núi đá",
+  "description": "",
+  "iconId": 76
+ },
+ {
+  "id": 77,
+  "name": "Rừng đá",
+  "description": "",
+  "iconId": 77
+ },
+ {
+  "id": 78,
+  "name": "Lãnh  địa Fize",
+  "description": "",
+  "iconId": 78
+ },
+ {
+  "id": 79,
+  "name": "Núi khỉ đỏ",
+  "description": "",
+  "iconId": 79
+ },
+ {
+  "id": 80,
+  "name": "Núi khỉ vàng",
+  "description": "",
+  "iconId": 80
+ },
+ {
+  "id": 81,
+  "name": "Hang quỷ chim",
+  "description": "",
+  "iconId": 81
+ },
+ {
+  "id": 82,
+  "name": "Núi khỉ đen",
+  "description": "",
+  "iconId": 82
+ },
+ {
+  "id": 83,
+  "name": "Hang khỉ đen",
+  "description": "",
+  "iconId": 83
+ },
+ {
+  "id": 84,
+  "name": "Siêu Thị",
+  "description": "",
+  "iconId": 84
+ },
+ {
+  "id": 85,
+  "name": "Hành tinh M-2",
+  "description": "",
+  "iconId": 85
+ },
+ {
+  "id": 86,
+  "name": "Hành tinh Polaris",
+  "description": "",
+  "iconId": 86
+ },
+ {
+  "id": 87,
+  "name": "Hành tinh Cretaceous",
+  "description": "",
+  "iconId": 87
+ },
+ {
+  "id": 88,
+  "name": "Hành tinh Monmaasu",
+  "description": "",
+  "iconId": 88
+ },
+ {
+  "id": 89,
+  "name": "Hành tinh Rudeeze",
+  "description": "",
+  "iconId": 89
+ },
+ {
+  "id": 90,
+  "name": "Hành tinh Gelbo",
+  "description": "",
+  "iconId": 90
+ },
+ {
+  "id": 91,
+  "name": "Hành tinh Tigere",
+  "description": "",
+  "iconId": 91
+ },
+ {
+  "id": 92,
+  "name": "Thành phố phía đông",
+  "description": "",
+  "iconId": 92
+ },
+ {
+  "id": 93,
+  "name": "Thành phố phía nam",
+  "description": "",
+  "iconId": 93
+ },
+ {
+  "id": 94,
+  "name": "Đảo Balê",
+  "description": "",
+  "iconId": 94
+ },
+ {
+  "id": 95,
+  "name": "95",
+  "description": "",
+  "iconId": 95
+ },
+ {
+  "id": 96,
+  "name": "Cao nguyên",
+  "description": "",
+  "iconId": 96
+ },
+ {
+  "id": 97,
+  "name": "Thành phố phía bắc",
+  "description": "",
+  "iconId": 97
+ },
+ {
+  "id": 98,
+  "name": "Ngọn núi phía bắc",
+  "description": "",
+  "iconId": 98
+ },
+ {
+  "id": 99,
+  "name": "Thung lũng phía bắc",
+  "description": "",
+  "iconId": 99
+ },
+ {
+  "id": 100,
+  "name": "Thị trấn Ginder",
+  "description": "",
+  "iconId": 100
+ },
+ {
+  "id": 101,
+  "name": "101",
+  "description": "",
+  "iconId": 101
+ },
+ {
+  "id": 102,
+  "name": "Nhà Bunma",
+  "description": "",
+  "iconId": 102
+ },
+ {
+  "id": 103,
+  "name": "Võ đài Xên bọ hung",
+  "description": "",
+  "iconId": 103
+ },
+ {
+  "id": 104,
+  "name": "Sân sau siêu thị",
+  "description": "",
+  "iconId": 104
+ },
+ {
+  "id": 105,
+  "name": "Cánh đồng tuyết",
+  "description": "",
+  "iconId": 105
+ },
+ {
+  "id": 106,
+  "name": "Rừng tuyết",
+  "description": "",
+  "iconId": 106
+ },
+ {
+  "id": 107,
+  "name": "Núi tuyết",
+  "description": "",
+  "iconId": 107
+ },
+ {
+  "id": 108,
+  "name": "Dòng sông băng",
+  "description": "",
+  "iconId": 108
+ },
+ {
+  "id": 109,
+  "name": "Rừng băng",
+  "description": "",
+  "iconId": 109
+ },
+ {
+  "id": 110,
+  "name": "Hang băng",
+  "description": "",
+  "iconId": 110
+ },
+ {
+  "id": 111,
+  "name": "Đông Nam Karin",
+  "description": "",
+  "iconId": 111
+ },
+ {
+  "id": 112,
+  "name": "Võ đài Hạt Mít",
+  "description": "",
+  "iconId": 112
+ },
+ {
+  "id": 113,
+  "name": "Đại hội võ thuật",
+  "description": "",
+  "iconId": 113
+ },
+ {
+  "id": 114,
+  "name": "Cổng phi thuyền",
+  "description": "",
+  "iconId": 114
+ },
+ {
+  "id": 115,
+  "name": "Phòng chờ",
+  "description": "",
+  "iconId": 115
+ },
+ {
+  "id": 116,
+  "name": "Thánh địa Kaio",
+  "description": "",
+  "iconId": 116
+ },
+ {
+  "id": 117,
+  "name": "Cửa Ải 1",
+  "description": "",
+  "iconId": 117
+ },
+ {
+  "id": 118,
+  "name": "Cửa Ải 2",
+  "description": "",
+  "iconId": 118
+ },
+ {
+  "id": 119,
+  "name": "Cửa Ải 3",
+  "description": "",
+  "iconId": 119
+ },
+ {
+  "id": 120,
+  "name": "Phòng chỉ huy",
+  "description": "",
+  "iconId": 120
+ },
+ {
+  "id": 121,
+  "name": "Đấu trường",
+  "description": "",
+  "iconId": 121
+ },
+ {
+  "id": 122,
+  "name": "Ngũ Hành Sơn",
+  "description": "",
+  "iconId": 122
+ },
+ {
+  "id": 123,
+  "name": "Ngũ Hành Sơn",
+  "description": "",
+  "iconId": 123
+ },
+ {
+  "id": 124,
+  "name": "Ngũ Hành Sơn",
+  "description": "",
+  "iconId": 124
+ },
+ {
+  "id": 125,
+  "name": "Võ đài Bang",
+  "description": "",
+  "iconId": 125
+ },
+ {
+  "id": 126,
+  "name": "Thành phố Santa",
+  "description": "",
+  "iconId": 126
+ },
+ {
+  "id": 127,
+  "name": "Cổng phi thuyền",
+  "description": "",
+  "iconId": 127
+ },
+ {
+  "id": 128,
+  "name": "Bụng Mabư",
+  "description": "",
+  "iconId": 128
+ },
+ {
+  "id": 129,
+  "name": "Đại hội võ thuật",
+  "description": "",
+  "iconId": 129
+ },
+ {
+  "id": 130,
+  "name": "Đại hội võ thuật Vũ Trụ",
+  "description": "",
+  "iconId": 130
+ },
+ {
+  "id": 131,
+  "name": "Hành Tinh Yardart",
+  "description": "",
+  "iconId": 131
+ },
+ {
+  "id": 132,
+  "name": "Hành Tinh Yardart 2",
+  "description": "",
+  "iconId": 132
+ },
+ {
+  "id": 133,
+  "name": "Hành Tinh Yardart 3",
+  "description": "",
+  "iconId": 133
+ },
+ {
+  "id": 134,
+  "name": "Đại hội võ thuật Vũ Trụ 6-7",
+  "description": "",
+  "iconId": 134
+ },
+ {
+  "id": 135,
+  "name": "Động hải tặc",
+  "description": "",
+  "iconId": 135
+ },
+ {
+  "id": 136,
+  "name": "Hang Bạch Tuộc",
+  "description": "",
+  "iconId": 136
+ },
+ {
+  "id": 137,
+  "name": "Động kho báu",
+  "description": "",
+  "iconId": 137
+ },
+ {
+  "id": 138,
+  "name": "Cảng hải tặc",
+  "description": "",
+  "iconId": 138
+ },
+ {
+  "id": 139,
+  "name": "Hành tinh Potaufeu",
+  "description": "",
+  "iconId": 139
+ },
+ {
+  "id": 140,
+  "name": "Hang động Potaufeu",
+  "description": "",
+  "iconId": 140
+ },
+ {
+  "id": 141,
+  "name": "Con đường rắn độc",
+  "description": "",
+  "iconId": 141
+ },
+ {
+  "id": 142,
+  "name": "Con đường rắn độc",
+  "description": "",
+  "iconId": 142
+ },
+ {
+  "id": 143,
+  "name": "Con đường rắn độc",
+  "description": "",
+  "iconId": 143
+ },
+ {
+  "id": 144,
+  "name": "Hoang mạc",
+  "description": "",
+  "iconId": 144
+ },
+ {
+  "id": 145,
+  "name": "Võ Đài Siêu Cấp",
+  "description": "",
+  "iconId": 145
+ },
+ {
+  "id": 146,
+  "name": "Tây Karin",
+  "description": "",
+  "iconId": 146
+ },
+ {
+  "id": 147,
+  "name": "Sa mạc",
+  "description": "",
+  "iconId": 147
+ },
+ {
+  "id": 148,
+  "name": "Lâu đài Lychee",
+  "description": "",
+  "iconId": 148
+ },
+ {
+  "id": 149,
+  "name": "Thành phố Santa",
+  "description": "",
+  "iconId": 149
+ },
+ {
+  "id": 150,
+  "name": "Lôi Đài",
+  "description": "",
+  "iconId": 150
+ },
+ {
+  "id": 151,
+  "name": "Hành tinh bóng tối",
+  "description": "",
+  "iconId": 151
+ },
+ {
+  "id": 152,
+  "name": "Vùng đất băng giá",
+  "description": "",
+  "iconId": 152
+ },
+ {
+  "id": 153,
+  "name": "Lãnh địa bang hội",
+  "description": "",
+  "iconId": 153
+ },
+ {
+  "id": 154,
+  "name": "Hành tinh Bill",
+  "description": "",
+  "iconId": 154
+ },
+ {
+  "id": 155,
+  "name": "Hành tinh ngục tù",
+  "description": "",
+  "iconId": 155
+ },
+ {
+  "id": 156,
+  "name": "Tây thánh địa",
+  "description": "",
+  "iconId": 156
+ },
+ {
+  "id": 157,
+  "name": "Đông thánh Địa",
+  "description": "",
+  "iconId": 157
+ },
+ {
+  "id": 158,
+  "name": "Bắc thánh địa",
+  "description": "",
+  "iconId": 158
+ },
+ {
+  "id": 159,
+  "name": "Nam thánh Địa",
+  "description": "",
+  "iconId": 159
+ },
+ {
+  "id": 160,
+  "name": "Khu hang động",
+  "description": "",
+  "iconId": 160
+ },
+ {
+  "id": 161,
+  "name": "Bìa rừng nguyên thủy",
+  "description": "",
+  "iconId": 161
+ },
+ {
+  "id": 162,
+  "name": "Rừng nguyên thủy",
+  "description": "",
+  "iconId": 162
+ },
+ {
+  "id": 163,
+  "name": "Làng Plant nguyên thủy",
+  "description": "",
+  "iconId": 163
+ },
+ {
+  "id": 164,
+  "name": "Tranh ngọc Namếc",
+  "description": "",
+  "iconId": 164
+ },
+ {
+  "id": 165,
+  "name": "Map Boss",
+  "description": "",
+  "iconId": 165
+ },
+ {
+  "id": 166,
+  "name": "Hành tinh ngục tù",
+  "description": "",
+  "iconId": 166
+ },
+ {
+  "id": 167,
+  "name": "Địa ngục tầng 1",
+  "description": "",
+  "iconId": 167
+ },
+ {
+  "id": 168,
+  "name": "Địa ngục tầng 2",
+  "description": "",
+  "iconId": 168
+ },
+ {
+  "id": 169,
+  "name": "Địa ngục tầng 3",
+  "description": "",
+  "iconId": 169
+ },
+ {
+  "id": 170,
+  "name": "Phòng tập thời gian",
+  "description": "",
+  "iconId": 170
+ },
+ {
+  "id": 171,
+  "name": "Địa ngục tầng 4",
+  "description": "",
+  "iconId": 171
+ },
+ {
+  "id": 172,
+  "name": "Phòng chờ thời gian",
+  "description": "",
+  "iconId": 172
+ },
+ {
+  "id": 173,
+  "name": "Cánh đồng tuyết 2",
+  "description": "",
+  "iconId": 173
+ },
+ {
+  "id": 174,
+  "name": "Rừng tuyết 2",
+  "description": "",
+  "iconId": 174
+ },
+ {
+  "id": 175,
+  "name": "Hang băng 2",
+  "description": "",
+  "iconId": 175
+ },
+ {
+  "id": 176,
+  "name": "NEW Nam Kamê",
+  "description": "",
+  "iconId": 176
+ },
+ {
+  "id": 177,
+  "name": "Rừng nguyên sinh",
+  "description": "",
+  "iconId": 177
+ },
+ {
+  "id": 178,
+  "name": "Ngọn núi phía bắc",
+  "description": "",
+  "iconId": 178
+ },
+ {
+  "id": 179,
+  "name": "Phòng thí nghiệm Myuu",
+  "description": "",
+  "iconId": 179
+ },
+ {
+  "id": 180,
+  "name": "Mù căng chải",
+  "description": "",
+  "iconId": 180
+ },
+ {
+  "id": 181,
+  "name": "Sa mạc hoang vu",
+  "description": "",
+  "iconId": 181
+ },
+ {
+  "id": 182,
+  "name": "Hành tinh Bill",
+  "description": "",
+  "iconId": 182
+ },
+ {
+  "id": 183,
+  "name": "Hành tinh Bill",
+  "description": "",
+  "iconId": 183
+ },
+ {
+  "id": 184,
+  "name": "Tường thành cổ 1",
+  "description": "",
+  "iconId": 184
+ },
+ {
+  "id": 185,
+  "name": "Tường thành cổ 2",
+  "description": "",
+  "iconId": 185
+ },
+ {
+  "id": 186,
+  "name": "Đấu trường thành cổ",
+  "description": "",
+  "iconId": 186
+ }
+]

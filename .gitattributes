@@ -1,0 +1,21 @@
+# Mặc định: git tự chuẩn hóa dấu xuống dòng
+* text=auto
+
+# Windows PowerShell 5.1 cần CRLF và UTF-8 có BOM (xem scripts/setup-dev.ps1)
+*.ps1 text eol=crlf
+*.cmd text eol=crlf
+*.bat text eol=crlf
+
+# Tài liệu và mã nguồn dùng LF
+*.md text eol=lf
+*.json text eol=lf
+*.cs text eol=lf
+*.csproj text eol=lf
+*.sln text eol=crlf
+*.sh text eol=lf
+
+# Nhị phân
+*.png binary
+*.ico binary
+*.dll binary
+*.exe binary

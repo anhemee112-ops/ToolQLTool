@@ -1,0 +1,32 @@
+<Window x:Class="ToolQL.App.BulkAddDialog"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Thêm nhiều tài khoản" Width="560" Height="460" MinWidth="440" MinHeight="360" WindowStartupLocation="CenterOwner"
+        ShowInTaskbar="False" Background="{StaticResource BgBrush}" FontFamily="Segoe UI" FontSize="13">
+    <Grid Margin="20">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+        <StackPanel Grid.Row="0" Margin="0,0,0,10">
+            <TextBlock TextWrapping="Wrap">
+                Dán danh sách vào ô dưới, mỗi dòng một acc, cột ngăn bằng dấu |
+            </TextBlock>
+            <TextBlock FontFamily="Consolas" Margin="0,6,0,0" Foreground="{StaticResource MutedBrush}"
+                       Text="TK|SV|MK&#x0A;TK|SV|MK|GHI CHÚ"/>
+            <TextBlock TextWrapping="Wrap" Margin="0,6,0,0" Foreground="{StaticResource MutedBrush}" FontSize="12"
+                       Text="SV là SỐ của server (từ 1, như cột SV trên bảng). Dòng trống và dòng bắt đầu bằng # bị bỏ qua. Có một dòng sai là chưa thêm acc nào."/>
+        </StackPanel>
+        <TextBox Grid.Row="1" x:Name="InputBox" AcceptsReturn="True" VerticalScrollBarVisibility="Auto" HorizontalScrollBarVisibility="Auto"
+                 FontFamily="Consolas" TextWrapping="NoWrap"/>
+        <StackPanel Grid.Row="2" Margin="0,10,0,0">
+            <TextBlock x:Name="ErrorText" Foreground="#D33B3B" TextWrapping="Wrap" Margin="0,0,0,8" Visibility="Collapsed" MaxHeight="90"/>
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Right">
+                <Button Content="Mở file .txt" Click="OnOpenFile"/>
+                <Button Content="Hủy" IsCancel="True" MinWidth="80"/>
+                <Button Content="Thêm" IsDefault="True" Style="{StaticResource PrimaryButton}" MinWidth="80" Margin="0" Click="OnAdd"/>
+            </StackPanel>
+        </StackPanel>
+    </Grid>
+</Window>
